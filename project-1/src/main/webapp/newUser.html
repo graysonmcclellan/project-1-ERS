@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Registration</title>
+ <link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous"> 
+
+<!-- Link to style sheet -->
+<!-- <link rel = "stylesheet" href = "styles/myStyles.css"/> -->
+
+</head>
+<body>
+
+ <div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4">Welcome to the User Registration</h1>
+			<p class="lead">Please provide the following information to register.</p>
+		</div>
+	</div> 
+
+	<!-- action refers to corresponding servlet name MERTHOD is the doMEthod -->
+	<form class="displayDiv" action="newuser" method="post">
+
+		<fieldset>
+			<legend>First Name: </legend>
+			<!-- we use this to fetch parameter -->
+			<input required type="text" name="firstName" />
+
+		</fieldset>
+		<fieldset>
+			<legend>Last Name: </legend>
+			<!-- we use this to fetch parameter -->
+			<input required type="text" name="lastName" />
+
+		</fieldset>
+		<fieldset>
+			<legend>Username: </legend>
+			<!-- we use this to fetch parameter -->
+			<input required type="text" name="username" />
+
+		</fieldset>
+
+		<fieldset>
+			<legend>Password: </legend>
+			<!-- we use this to fetch parameter -->
+			<input required type="text" name="password" />
+		</fieldset>
+		<br />
+
+		<!--  value corresponds to login servlet -->
+
+		<input type="submit" value="Submit" />
+		 <input type="button"onclick="location.href='welcome';" value="Go Back" />
+
+
+	</form>
+
+</body>
+</html>

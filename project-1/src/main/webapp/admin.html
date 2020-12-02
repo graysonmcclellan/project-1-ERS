@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Main Menu</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+</head>
+<body>
+
+ <div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4" id="welcomeAdmin"></h1>
+			<p class="lead">Please select an option from below.</p>
+		</div>
+	</div> 
+
+	
+	
+
+	<div class="list-group">
+			<a href="profile" class="list-group-item list-group-item-action active"> Home </a>
+			 <a href="allpending" class="list-group-item list-group-item-action">View All Pending Reimbursements</a> 
+			 <a href="approvereimbursement" class="list-group-item list-group-item-action">Approve a Reimbursement</a> 
+			<a href="denyreimbursement" class="list-group-item list-group-item-action">Deny a Reimbursement</a> 
+			<a href="allresolved" class="list-group-item list-group-item-action">View All Resolved Reimbursements</a>
+			<a href="allemployees" class="list-group-item list-group-item-action">View All Employees</a>
+						<a href="searchemployee" class="list-group-item list-group-item-action">View Specific Employee's Reimbursements</a>
+			<a href="logout" class="list-group-item list-group-item-action">Logout</a>
+			
+	</div>
+		<script src = "./scripts/welcomeAdminText.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Reimbursement Application</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous"> 
+	
+<link rel = "stylesheet" href = "styles/myStyles.css"/>
+	
+</head>
+<body>
+
+
+	 <div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4">New Reimbursement Application</h1>
+			<p class="lead">Please fill out the required credentials to apply for a new reimbursement.</p>
+		</div>
+	</div> 
+	
+		<!-- action refers to corresponding servlet name MERTHOD is the doMEthod -->
+	<form class="displayDiv" action="newreimbursement" method="post">
+
+		<fieldset>
+			<legend>Reimbursement Title: </legend>
+			<!-- we use this to fetch parameter -->
+			<input required type="text" name="title" />
+
+		</fieldset>
+		<fieldset>
+			<legend>Amount: </legend>
+			<!-- we use this to fetch parameter -->
+			<input required type="text" name="amount" />
+
+		</fieldset>
+		<fieldset>
+			<legend>Description: </legend>
+			<!-- we use this to fetch parameter -->
+			<input required type="text" name="description" />
+
+		</fieldset>
+
+		<fieldset>
+			<legend>Type (1-Lodging  2-Travel  3-Food  4-Other): </legend>
+			<!-- we use this to fetch parameter -->
+			<input required type="text" name="type" />
+		</fieldset>
+		<br />
+
+		<!--  value corresponds to login servlet -->
+
+		<input type="submit" value="Submit" />
+		 <input type="button"onclick="location.href='profile';" value="Go Back" />
+
+
+	</form>
+	
+
+</body>
+</html>
