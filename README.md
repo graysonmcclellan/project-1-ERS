@@ -42,20 +42,30 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
     > - When clicked redirects admin to a "Viewing All Pending Reimbursements" page that renderes a list of all of the existing pending reimbursement in Json format
   * Approve a Reimbursement
     > - When clicked redirects admin to a "Reimbursement Approval Portal" where an admin can enter the ID of the designated reimbursement and approve it. An entry of an invalid Reimbursement ID will result in a redirect to an "Unsuccessful Approval" page specifying the reason why it was unsuccessful and give the admin the option to either try agin or return to main menu. Similarly, successful approvals are redirected to a "Successfully Approved" page with an option to return to main menu.
- * Deny a Reimbursement
+  * Deny a Reimbursement
     > - When clicked redirects admin to a "Reimbursement Denial Portal" where an admin can enter the ID of the designated reimbursement and deny it. An entry of an invalid Reimbursement ID will result in a redirect to an "Unsuccessful Denial" page specifying the reason why it was unsuccessful and give the admin the option to either try agin or return to main menu. Similarly, successful denials are redirected to a "Successfully Denied" page with an option to return to main menu.
-  * View All Resolved Reimbursements
-    > - When clicked redirects admin to a "Viewing All Resolved Reimbursements" page that renders a list all employees' APPROVED and DENIED reimbursements in JSON format. 
-  * View All Employees
-    > - When clicked redirects an admin to a "Viewing All Employees" page that renders a list of all employees with their personal information in JSON format.
-  * View Specific Employee's Reimbursements
-    > - When clicked redirects admin to a "Search for Employee's Reimbursements" page where the admin can enter the Employee ID and is redirected, on submit, to a page rendering a list of all PEDNING, APPROVED, and DENIED reimbursements. If the employee being searched does not have any reimbursements a message is rendered to the admin to notify them. Also if an invalid Employee ID is entered the admin is redirected to a "Cannot Find That Employee" page and given the option to "Try Again" or "Return to Main Menu".
-  * Logout
-    > - When clicked an admin can logout and is redirected to the home page, thus terminating the current session.
+   * View All Resolved Reimbursements
+     > - When clicked redirects admin to a "Viewing All Resolved Reimbursements" page that renders a list all employees' APPROVED and DENIED reimbursements in JSON format. 
+   * View All Employees
+     > - When clicked redirects an admin to a "Viewing All Employees" page that renders a list of all employees with their personal information in JSON format.
+   * View Specific Employee's Reimbursements
+     > - When clicked redirects admin to a "Search for Employee's Reimbursements" page where the admin can enter the Employee ID and is redirected, on submit, to a page rendering a list of all PEDNING, APPROVED, and DENIED reimbursements. If the employee being searched does not have any reimbursements a message is rendered to the admin to notify them. Also if an invalid Employee ID is entered the admin is redirected to a "Cannot Find That Employee" page and given the option to "Try Again" or "Return to Main Menu".
+   * Logout
+     > - When clicked an admin can logout and is redirected to the home page, thus terminating the current session.
 
 
 ## Getting Started
-Clone project from github repository using command: git clone 
+Open a terminal at your designated file and clone project from github repository using command: 
+git clone https://github.com/graysonmcclellan/project-1-ERS.git
+
+## Usage
+Once you have the file on your local computer, open a new workspace in Spring Tool Suite 4 and import the file.
+
+Next, you will need to set up a server to run the application on. For this project you will need to download and use Apache Tomcat 9. 
+
+Once you've downloaded Tomcat, go to File > New > Other > Server (Select the Server Type) > Apache > Tomcat V9.0 Server > Finish
+
+Now, you can right click on the imported project and Run As > Run on Server (Select the Server you just initlialized) > Run.
 
     
 
