@@ -1,4 +1,4 @@
-# project-1-ERS
+# Revature Project 1 - Employee Reimbursement System
 Project 1 with Revature (Employee Reimbursement Services)
 
 ## Project Description
