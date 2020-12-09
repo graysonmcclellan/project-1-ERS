@@ -22,11 +22,11 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 ### Employees:
 * Can login from the Login Page using their username and password and get redirected to Employee Main Menu
 * Can view a personalized Employee Main Menu displaying an interactive nav bar with the following options:
-  > * Apply for a New Reimbursement
-    - When clicked redirects employee to new reimbursement application where they can submit a reimbursement request, which creates a pending reimbursment that must be approved by an admin.
-  > * View My Reimbursments
-  > * View My Pending Reimbursements
-  > * View My Resolved Reimbursements
-  > * View My Profile Info
-  > * Logout
+  * Apply for a New Reimbursement
+    > - When clicked redirects employee to new reimbursement application where they can submit a reimbursement request, which creates a pending reimbursment that must be approved by an admin.
+  * View My Reimbursments
+  * View My Pending Reimbursements
+  * View My Resolved Reimbursements
+  * View My Profile Info
+  * Logout
 * Can
